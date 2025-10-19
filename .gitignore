@@ -1,0 +1,31 @@
+# C++ build files
+*.out
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+
+# Your compiled binary
+shell
+
+# Build/debug folders
+build/
+bin/
+Debug/
+Release/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Logs & temporary files
+*.log
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
