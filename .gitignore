@@ -8,7 +8,7 @@
 *.a
 *.lib
 
-# Your compiled binary
+#compiled binary
 shell
 
 # Build/debug folders
