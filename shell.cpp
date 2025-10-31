@@ -20,7 +20,7 @@ Due Date  : November 2, 2025         *
 using namespace std;
 int main() {
     string input;
-    const string prompt = "sapardurdyyeva>";  // Your last name prompt
+    const string prompt = "sapardurdyyeva>";
 
     while (true) {
         cout << prompt;
