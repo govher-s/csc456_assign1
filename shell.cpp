@@ -4,7 +4,7 @@ Name      : Govher Sapardurdyyeva    *
 Class     : CSC 456                  *
 Assignment: Programming Assignment 1 *
 Instructor: Dr. Juang                *
-Due Date  : November 2, 2025         *
+Due Date  : November 9, 2025         *
 **************************************
 **************************************/
 #include <iostream>
