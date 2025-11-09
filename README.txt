@@ -7,10 +7,8 @@ Assignment: Programming Assignment 1
 Due Date  : November 2, 2025
 ***************************************
 ------------------------------------------------------------
-1.
+1. Supported features:
 ------------------------------------------------------------
-
-Supported features:
   • Executes standard Linux commands (e.g., ls, cp, mkdir, cat, etc.)
   • Accepts any number of arguments
   • Displays a personalized prompt: sapardurdyyeva>
