@@ -4,7 +4,7 @@ Name      : Govher Sapardurdyyeva
 Instructor: Dr. Juang
 Class     : CSC 456 – Operating Systems
 Assignment: Programming Assignment 1
-Due Date  : November 2, 2025
+Due Date  : November 9, 2025
 ***************************************
 ------------------------------------------------------------
 1. Supported features:
