@@ -18,6 +18,7 @@ Due Date  : November 2, 2025         *
 #include <sys/wait.h>
 
 using namespace std;
+
 int main() {
     string input;
     const string prompt = "sapardurdyyeva>";
@@ -35,12 +36,18 @@ int main() {
         // Ignore empty input
         if (input.empty()) continue;
 
-        // Parse the input into tokens (command + arguments)
         stringstream ss(input);
         vector<string> args;
         string arg;
         while (ss >> arg) {
             args.push_back(arg);
+        }
+
+        if (args.empty()) continue;
+
+        if (args[0] == "clear") {
+            system("clear");
+            continue;
         }
 
         // Convert vector<string> to char* array for execvp
@@ -57,14 +64,12 @@ int main() {
             continue;
         } 
         else if (pid == 0) {
-            // Child process executes the command
             if (execvp(argv[0], argv.data()) == -1) {
                 perror("Error executing command");
             }
             exit(EXIT_FAILURE);
         } 
         else {
-            // Parent waits for child to finish
             int status;
             waitpid(pid, &status, 0);
         }
