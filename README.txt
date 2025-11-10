@@ -1,7 +1,7 @@
 ***************************************
 README – CSC 456 Programming Assignment 1
 Name      : Govher Sapardurdyyeva
-Instructor: Dr. Juang
+Instructor: Dr. Huang
 Class     : CSC 456 – Operating Systems
 Assignment: Programming Assignment 1
 Due Date  : November 9, 2025
